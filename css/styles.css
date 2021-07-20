@@ -44,7 +44,7 @@ body {
   text-decoration: none;
 }
 
-  .accent {
+.accent {
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -76,13 +76,13 @@ body {
 .nav-link:focus {
   color: var(--accent-color);
 }
-  .current {
+.current {
   color: var(--accent-color);
 }
 
 li {
   list-style-type: none;
-  }
+}
 
 /* contact-us */
 
@@ -188,13 +188,13 @@ li {
   color: var(--primary-title-text-color);
 
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.description {
+.function {
   color: var(--primary-text-color);
 
   font-size: 16px;
