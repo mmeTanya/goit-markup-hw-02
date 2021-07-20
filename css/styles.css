@@ -76,7 +76,7 @@ body {
 .nav-link:focus {
   color: var(--accent-color);
 }
-.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 
@@ -141,6 +141,12 @@ li {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.secondary-button:hover,
+.secondary-button:focus {
+  color: var(--third-title-text-color);
+  background-color: var(--fourth-background-color);
 }
 
 /* Section-qualities */
